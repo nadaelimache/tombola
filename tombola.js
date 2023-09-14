@@ -22,7 +22,7 @@
 function generaNumeriCartella() {
     const numeriCartella = [];
     while (numeriCartella.length < 76) {
-      const numeroCasuale = Math.floor(Math.random() * 90) + 1;
+      const numeroCasuale = Math.floor(Math.random() * 76) + 1;
       if (!numeriCartella.includes(numeroCasuale)) {
         numeriCartella.push(numeroCasuale);
       }

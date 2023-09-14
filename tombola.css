@@ -1,8 +1,8 @@
 #cartella {
     display: grid;
-    grid-template-columns: repeat(9, 1fr); /* 9 colonne */
+    grid-template-columns: repeat(9, 1fr);
     grid-gap: 5px;
-    max-width: 400px; /* Imposta la larghezza massima per una migliore visualizzazione */
+    max-width: 400px; 
     margin: 0 auto;
     font-size: 20px;
   }
@@ -13,5 +13,34 @@
     align-items: center;
     justify-content: center;
     height: 50px;
+    background: linear-gradient(to right top, #c71fc0, #b022b5, #9923a9, #83239d, #6e2190);
+    color: white;
+  }
+
+  body {
+    background: #cec2c2;
+    font-family: sans-serif;
+  }
+
+  button {
+    padding: 16px 30px;
+    margin: 26px 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right top, #b0fff3, #89dacb, #62b6a3, #3c947d, #0c7259);
+    cursor: pointer;
+    font-size: 20px;
   }
   
+  #numeriEstratti {
+    margin: 5px 40px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #btn {
+    text-align: center;
+  }
