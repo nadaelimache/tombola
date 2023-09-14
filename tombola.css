@@ -1,0 +1,17 @@
+#cartella {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr); /* 9 colonne */
+    grid-gap: 5px;
+    max-width: 400px; /* Imposta la larghezza massima per una migliore visualizzazione */
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  .cell {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  
